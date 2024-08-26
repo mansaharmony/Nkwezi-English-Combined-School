@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nkwezi English Combined School</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #F2F2F2;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1f3815;
+            color: #FFFFFF;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            background-color: #ff9a01;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+        }
+        .nav a {
+            color: #FFFFFF;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        .hero {
+            background-color: #ffeb3b;
+            color: #1f3815;
+            padding: 40px 20px;
+            text-align: center;
+        }
+        .hero img.banner {
+            width: 100%;
+            height: auto;
+            max-width: 1200px;
+            height: 500px;
+        }
+        .hero h1 {
+            margin: 0;
+        }
+        .btn-primary {
+            background-color: #1f3815;
+            color: #ffeb3b;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .btn-secondary {
+            background-color: #ffffff;
+            color: #1f3815;
+            padding: 10px 20px;
+            border: 2px solid #1f3815;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .programs {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin: 20px;
+            justify-content: center;
+        }
+        .program {
+            background-color: #ffffff;
+            border: 1px solid #1f3815;
+            padding: 20px;
+            border-radius: 5px;
+            width: calc(33% - 40px);
+            box-sizing: border-box;
+        }
+        .program h3 {
+            color: #1f3815;
+        }
+        footer {
+            background-color: #1f3815;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        @media (max-width: 768px) {
+            .program {
+                width: calc(50% - 40px);
+            }
+        }
+        @media (max-width: 480px) {
+            .program {
+                width: calc(100% - 40px);
+            }
+            .hero img.banner {
+                height: auto;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Nkwezi English Combined School</h1>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="academics.html">Academics</a>
+        <a href="admissions.html">Admissions</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact Us</a>
+    </nav>
+    <section class="hero">
+        <img src="images/banner-image.jpg" alt="Nkwezi English Combined School Banner" class="banner">
+        <h1>Welcome to Nkwezi English Combined School</h1>
+        <p>Where excellence in education meets a nurturing environment.</p>
+        <a href="admissions.html" class="btn-primary">Apply Now</a>
+    </section>
+    <section>
+        <h2>About Us</h2>
+        <p>Nkwezi English Combined School provides a comprehensive education from primary through secondary levels. Our mission is to foster academic excellence and personal growth in a supportive environment.</p>
+    </section>
+    <section class="programs">
+        <div class="program">
+            <h3>Primary School</h3>
+            <p>Structured curriculum focusing on foundational skills and holistic development.</p>
+        </div>
+        <div class="program">
+            <h3>Secondary School</h3>
+            <p>Advanced curriculum preparing students for further education and careers.</p>
+        </div>
+        <div class="program">
+            <h3>Extracurricular Activities</h3>
+            <p>Sports, arts, and leadership programs to enhance student experiences.</p>
+        </div>
+    </section>
+    <section>
+        <h2>Join Our Community</h2>
+        <p>Ready to become a part of our vibrant school community? Apply today or get in touch for more information!</p>
+        <a href="admissions.html" class="btn-primary">Apply Now</a>
+        <a href="contact.html" class="btn-secondary">Contact Us</a>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nkwezi English Combined School. All rights reserved.</p>
+    </footer>
+</body>
+</html>
